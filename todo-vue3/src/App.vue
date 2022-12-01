@@ -56,7 +56,7 @@
 
 <script setup>
 import { ref, computed } from "vue";
-const checked = ref();
+
 const posts = ref([]);
 const todos = ref([]);
 const userId = ref();

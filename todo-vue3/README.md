@@ -24,11 +24,14 @@ npm run build
 
 ```
 
-### Features
+### Environement
 
-- JS-framework vue3
+- JS-framework Vue3
 - CSS-Framework Vuetify3
 - UI-Kit Vuetify3
+- Docker
+
+### Features
 
 - Add loading
 - Add error messaging
@@ -36,7 +39,7 @@ npm run build
 
 ### Feedback
 
-There is a lot of room for interpretation. I think it is important for a developer to stay within the scope of the assignment. Since there is so much room for interpretation. I have a lot of questions about this wireframe. f.e.
+There is a lot of room for interpretation with the given wireframe. I have a lot of questions about this wireframe. I think it is important for a developer to stay within the scope of the assignment. Some of the questions popped up.
 
 - Should I build in routes? F.e. If you click on a post
 - What happens if I toggle the checkbox for a certain user? I made it readonly

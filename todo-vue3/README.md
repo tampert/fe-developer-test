@@ -24,20 +24,37 @@ npm run build
 
 ```
 
+### Features
+
+- JS-framework vue3
+- CSS-Framework Vuetify3
+- UI-Kit Vuetify3
+
+- Add loading
+- Add error messaging
+- Add v-select to select an unique user_id
+
 ### Feedback
 
 There is a lot of room for interpretation. I think it is important for a developer to stay within the scope of the assignment. Since there is so much room for interpretation. I have a lot of questions about this wireframe. f.e.
 
-- should I build in routes?
-- what happens if I use the checkbox for a certain user? I made it readonly
-- Am I allowed to change the status of the specific user? (Why is the endpoint not given)
+- Should I build in routes? F.e. If you click on a post
+- What happens if I toggle the checkbox for a certain user? I made it readonly
+- Am I allowed to change the status of the specific user?
+- What happens when the user reloads the page? Should the selected user_id be persistent?
 - etc.
 
-I also didn't need an access token for the API https://gorest.co.in the endpoints worked without it.
+Since this is just a single-page dashboard I did not create any components.
 
-In my current role I learned that I should leave as less room for assumptions as possible. So I stick to the wireframe and try to develop only what is asked.
+I didn't need an access token for the API https://gorest.co.in the endpoints worked without the access token.
 
-For future assignments for applicants I would suggest that you add some more specific information.
+In my current role, I learned that I should leave as less room for assumptions as possible. So I stick to the wireframe and try to develop only what is asked.
+
+For future assignments for applicants, I would suggest that you add some more specific information.
+
+I have added a docker file. good to mention that hot reloading is not working for now.
+
+future improvements: add typescript
 
 ### docker
 

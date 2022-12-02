@@ -38,3 +38,19 @@ I also didn't need an access token for the API https://gorest.co.in the endpoint
 In my current role I learned that I should leave as less room for assumptions as possible. So I stick to the wireframe and try to develop only what is asked.
 
 For future assignments for applicants I would suggest that you add some more specific information.
+
+### docker
+
+dependency docker installed
+
+```
+cd into root dir /fe-developer-test
+
+
+docker build -t vue3 .
+
+
+docker run -p 8080:8080 -it IMAGE_ID
+
+docker run -p 8080:8080 -it fca10bb8b642
+```
